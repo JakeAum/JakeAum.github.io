@@ -381,3 +381,11 @@ hr.rounded {
     color: #000 !important;
     opacity: 1;
 }
+
+.bold {
+    font-weight: 700 !important;
+}
+
+.align-items-right {
+    align-items: right;
+}
