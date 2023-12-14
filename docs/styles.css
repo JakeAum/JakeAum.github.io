@@ -82,8 +82,8 @@ i:hover {
 }
 
 .cards:hover .cardimg {
-    -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
-    filter: grayscale(0%); /* FF 35+ */
+    -webkit-filter: grayscale(20%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(35%); /* FF 35+ */
     opacity: 100%;
 }
 

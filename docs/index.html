@@ -1,9 +1,13 @@
-<!doctype html>
+<!DOCTYPE html>
+<html lang="en">
 
 <html>
 	<head>
+		<meta charset="UTF-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Tab Name -->
 		<title>Jacob Auman</title>
-		<!-- <link rel="icon" type="image/png" href=""/> -->
+		<!-- CSS Sources-->
 		<link rel="stylesheet" href="styles.css">
 	    <link rel="stylesheet" href="bootstrap.css">
 		<link rel="stylesheet" href="widthme.css">
@@ -11,13 +15,15 @@
 	    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,600;0,700;0,800;0,900;1,200;1,300;1,600;1,700&display=swap" rel="stylesheet">
 		<script src="https://kit.fontawesome.com/cf300e1a1c.js" crossorigin="anonymous"></script>
 	</head>
+
 	<body>
 		<img class="chevron" src="/media/chevron-down.svg">
+		
 		<!-- Header Block -->
 		<div class="" style="width: 100vw; height: 7.5vh; background-color: rgba(255, 255, 255, 1); position: fixed;"></div>
 		<div class="d-flex"> 
 			<div class="name0">
-				<a class="dropbtn">JACOB AUMAN</a> <!-- <a class="dropbtn" href="aboutme.html">ALEXANDER KRANIAS</a>             -->
+				<a class="dropbtn" href="index.html">JACOB AUMAN</a> 
 			</div>
 			<!-- 
 			<div class="name05">
@@ -31,21 +37,23 @@
 				<button class="dropbtn">PROJECTS</button>
 				<div class="dropdown-content">
 					<a href="pushupPose.html">Pushup Pose Estimation</a>
-					
+					<a href="clock.html">Machinist's Clock</a>
+					<a href="coaster.html">Isogrid Coaster</a>
+					<a href="screwdrivers.html">Screwdrivers</a>
 				</div>
 			</div>
 			<div class="name1">
 				<button class="dropbtn">RESEARCH</button>
 				<div class="dropdown-content">
-					<a href="/media/Pheonix Tailings Final Deliverable.pdf" >Low Carbon Ferro-Manganese Production from Bauxite with Aluminum</a>
-					<a href="/media/MECH 103 Final Project.pdf" target="_blank"> Impulse Efficiency of Model Rocket Motors</a>
+					<a href="iron.html" >Low Carbon Ferro-Manganese Production from Bauxite with Aluminum</a>
+					<a href="rocket.html"> Impulse Efficiency of Model Rocket Motors</a>
 				</div>
 			</div>
 			<div class="name3">
-				<a class="dropbtn" href="/docs/media/resumes/Resume 8_5_23.pdf" target="_blank">RESUME</a>
+				<a class="dropbtn" href="resume.html">RESUME</a>
 			</div>
 		</div>
-		
+	<!-- End Header Block -->
 	    <div class="w-100 mx-auto">
 	        <div class="d-flex flex-row justify-content-around align-items-center px-4 py-5 text-black heightfull">
 	            <div class="d-flex flex-column justify-content-around align-items-center p-3 mb-5">
@@ -55,19 +63,29 @@
 					</div>
 	            </div>
 	        </div>
-			<div class="d-flex flex-row vcenter mt-3">
-				<!-- <img class="engineerpicture" src="img/aboutme/headshot_landscape.jpg" alt="Me working on the KnockLock project"> -->
-					<div class="flex-fill mx-3 px-5">
-						<p class="display-3 intro2 mb-0">Hey there! I'm Jacob Auman. I am a Mechanical Engineering student at Colorado State with a broad interest in software, machine learning, and embedded systems. You can contact me via <a href="https://www.linkedin.com/in/jacob-auman/" target="_blank">LinkedIn<a> or by email at <a href="mailto:aumanj@colostate.edu">aumanj@colostate.edu</a>.</p>				</div>
+
+			<!-- Introduction -->
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4 col-md-12">
+						<img class="img-fluid" src="/docs/media/headshot.png" alt="Headshot">
+					</div>
+	
+					<div class="col-lg-8 col-md-12 d-flex align-items-center justify-content-center">
+						<p class="display-3 intro2 mb-0">Hey there! I'm Jacob Auman. I am a Mechanical Engineering student at Colorado State with a broad interest in hardware, software, and computer vision. You can connect with me on <a href="https://www.linkedin.com/in/jacob-auman/" target="_blank">LinkedIn<a> or via email at <a href="mailto:jacobauman00@gmail.com">jacobauman00@gmail.com</a>.</p>
+					</div>
+				</div>
 			</div>
+
+			
 			<div class="d-flex flex-row vcenter">
 				<div class="flex-column mx-0 px-7 mt-5 vcenter w-100 align-items-center" style="margin-bottom: 3%;">
 					<p><span class="bold" style="font-size: 2.8vw; line-height: 1rem;">Skills</span></p>
 					<div style="align-items: left; line-height: 1.6vw;">
-						<p class="intro3"><span class="bold">Technical Skills:</span> Auto Diagnosis and Repair, Rapid Protoyping, Iterative Design</p>
-						<p class="intro3"><span class="bold"> CAD / Design:</span> Fusion 360, SolidWorks </p>
-						<p class="intro3"><span class="bold">Hardware:</span> Arduino</p>
-						<p class="intro3"><span class="bold">Software Languages:</span> Python, MATLAB, HTML, CSS</p>
+						<p class="intro3"><span class="bold">Technical Skills:</span> Automotive Repair, Protoyping, Iterative Design</p>
+						<p class="intro3"><span class="bold"> CAD / Design:</span> Fusion 360, SolidWorks (CWSA certified) </p>
+						<p class="intro3"><span class="bold">Hardware:</span> HAAS CNC Mill Operator Certified</p>
+						<p class="intro3"><span class="bold">Software:</span> Python, MATLAB, HTML, CSS</p>
 					</div>
 				</div>
 			</div>
@@ -85,6 +103,92 @@
 					<p class="intro3 mb-5" style="align-items: center;">Brazillian Jiu jitsu &nbsp • &nbsp Rock Climbing</p>
 				</div>
 			</div>
+
+			<!-- PROJECT DISPLAY -->
+			<div class="container ">
+				<div class="vcenter justify-content-center">
+					<p class="mt-5"><span class="bold" style="font-size: 2.8vw; line-height: 1rem;">Projects</span></p>
+				</div>
+				<div class="row my-4">
+					<!-- First row -->
+					<div class="col-md-4">
+						<div class="card">
+							<a href="clock.html" class="stretched-link"></a>
+								<img class="card-img-top" src="/docs/media/clock.png" alt="Card image cap">
+							</a>
+							<div class="card-body">
+								<h5 class="card-title">Machinist's Clock</h5>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="card">
+							<a href="coaster.html" class="stretched-link">
+								<img class="card-img-top" src="/docs/media/coaster.png" alt="Card image cap">
+							</a>	
+							<div class="card-body">
+								<h5 class="card-title">Iso-grid Coaster</h5>
+								
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="card">
+							<a href="screwdrivers.html" class="stretched-link">
+								<img class="card-img-top" src="/docs/media/screwdriver.png" alt="Card image cap">
+							</a>
+							<div class="card-body">
+								<h5 class="card-title">Screwdrivers</h5>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<!-- Second row -->
+					<div class="col-md-4">
+						<div class="card">
+							<a href="pushupPose.html" class="stretched-link">
+								<img class="card-img-top" src="/docs/media/pushupPy-thumbnail.png" alt="Card image cap">
+							</a>
+							<div class="card-body">
+								<h5 class="card-title">Pose Estimation</h5>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="card">
+							<a href="iron.html" class="stretched-link">
+								<img class="card-img-top" src="/docs/media/iron.png" alt="Card image cap">
+							</a>
+							<div class="card-body">
+								<h5 class="card-title">Ferro-Alloy Research</h5>
+				
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="card">
+							<a href="pushupPose.html" class="stretched-link">
+								<img class="card-img-top" src="/docs/media/rocket.png" alt="Card image cap">
+							</a>
+							<div class="card-body">
+								<h5 class="card-title">Rocket Motor Impulse</h5>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+			<!-- FOOTER -->
 			<div class="d-flex flex-row justify-content-around w-25 my-4 mx-auto vcenter">
 				<div class="flex-fill m-3 text-center">
 					<a href="https://github.com/JakeAum" target="_blank"><i class="fab fa-github"></i></a>
@@ -93,9 +197,10 @@
 					<a href="https://www.linkedin.com/in/jacob-auman/"><i class="fab fa-linkedin-in"></i></a>
 				</div>
 				<div class="flex-fill m-3 text-center">
-					<a href="mailto:aumanj@colostate.edu" target="_blank"><img src="/media/mono-kontact-mail.svg" class="fab fa-github" style="width: 4.5vw;"></img></a>
+					<a href="mailto:jacobauman00@gmail.com" target="_blank"><img src="/media/mono-kontact-mail.svg" class="fab fa-github" style="width: 4.5vw;"></img></a>
 				</div>
 			</div>
+
 			<div class="d-flex flex-column mt-3">
 			
 				<a class="mx-auto mb-2" style="font-size: 1em;" href="https://www.mit.edu/~mcaren/"><small>Site Template from Matthew Caren</small></a>

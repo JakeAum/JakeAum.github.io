@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- DEV NOTE: Very Basic I Just Wanted it to display the PDF presentations. -->
+<html>
+	<head>
+		<meta charset="UTF-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Tab Name -->
+		<title>Iron - Jacob Auman</title>
+		<!-- CSS Sources-->
+		<link rel="stylesheet" href="styles.css">
+	    <link rel="stylesheet" href="bootstrap.css">
+		<link rel="stylesheet" href="widthme.css">
+	    <link rel="preconnect" href="https://fonts.gstatic.com">
+	    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,600;0,700;0,800;0,900;1,200;1,300;1,600;1,700&display=swap" rel="stylesheet">
+		<script src="https://kit.fontawesome.com/cf300e1a1c.js" crossorigin="anonymous"></script>
+	
+        <!-- Special Class for the PDF Render -->
+        <style>
+            .pdf-large { 
+                height: 100vh; 
+                width: 100vw;
+                display: flex; 
+                justify-content: center; 
+                align-items: center;
+            } 
+        </style>
+    </head>
+    <body>
+        <!-- Header Block -->
+            <div class="" style="width: 100vw; height: 7.5vh; background-color: rgba(255, 255, 255, 1); position: fixed;"></div>
+            <div class="d-flex"> 
+                <div class="name0">
+                    <a class="dropbtn" href="index.html">JACOB AUMAN</a> 
+                </div>
+                <!-- 
+                <div class="name05">
+                    <a class="dropbtn" href="gallery.html">GALLERY</a>
+                </div>
+                -->
+                <div class="name01">
+                    <a class="dropbtn" href="index.html">HOME</a>
+                </div>
+                <div class="name2">
+                    <button class="dropbtn">PROJECTS</button>
+                    <div class="dropdown-content">
+                        <a href="pushupPose.html">Pushup Pose Estimation</a>
+                        <a href="clock.html">Machinist's Clock</a>
+                        <a href="coaster.html">Isogrid Coaster</a>
+                        <a href="screwdrivers.html">Screwdrivers</a>
+                    </div>
+                </div>
+                <div class="name1">
+                    <button class="dropbtn">RESEARCH</button>
+                    <div class="dropdown-content">
+                        <a href="iron.html" >Low Carbon Ferro-Manganese Production from Bauxite with Aluminum</a>
+                        <a href="rocket.html"> Impulse Efficiency of Model Rocket Motors</a>
+                    </div>
+                </div>
+                <div class="name3">
+                    <a class="dropbtn" href="resume.html">RESUME</a>
+                </div>
+            </div>
+        <!-- End Header Block -->
+
+
+        <div class="container.fluid pdf-large">
+            <embed src="media/Pheonix Tailings Final Deliverable.pdf" type="application/pdf" width="1200" height="800">
+        </div>
+    </body>
+</html>
